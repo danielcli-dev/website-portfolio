@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Contact Daniel Li</title>
     <link
       rel="shortcut icon"
       href="img/daniel-li-logo.ico"
       type="image/x-icon"
-    >
+    />
     <link
       rel="stylesheet"
       type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
-    >
-    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.production.css" />
   </head>
 
   <body>
@@ -25,7 +25,7 @@
             class="logo__image"
             src="img/daniel-li-logo.ico"
             alt="Personal logo of Daniel Li, a text logo in lowercase letters of my initials D L"
-          >
+          />
           <h1 class="logo__text">Daniel Li</h1>
         </div>
       </a>
@@ -60,28 +60,36 @@
     <div>
       <h1>Contact</h1>
       <form method="post">
-        <label class="standard-label" for="contact-email">E-mail: </label>
-        <input type="email" id="contact-email" required>
+        <div class="form__container">
+          <label class="standard-label" for="contact-email">E-mail: </label>
+          <input type="email" id="contact-email" required />
+        </div>
+        <div class="form__container">
+          <label class="standard-label" for="contact-tel">Telephone: </label>
 
-        <label class="standard-label" for="contact-tel">Telephone: </label>
-        
-        <input type="tel" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+          <input
+            type="tel"
+            id="contact-tel"
+            pattern="\d{3}[\-]\d{3}[\-]\d{4}"
+          />
+        </div>
+        <div class="form__container">
+          <label class="standard-label" for="contact-message">Message: </label>
+          <textarea id="contact-message" maxlength="240" required></textarea>
+        </div>
 
-        <label class="standard-label" for="contact-message">Message: </label>
-        <textarea id="contact-message" maxlength="240" required></textarea>
-
-        <input type="submit" value="Send message">
+        <input type="submit" value="Send message" />
       </form>
     </div>
     <div>
-      Daniel Li<br >
+      Daniel Li<br />
 
-      Los Angeles<br >
-      California<br >
-      <br >
-      <a href="mailto:office@careerfoundry.com">Contact me</a> <br >
+      Los Angeles<br />
+      California<br />
+      <br />
+      <a href="mailto:office@careerfoundry.com">Contact me</a> <br />
 
-      <a href="tel:+0000000000">Tel (000) 000-0000</a><br >
+      <a href="tel:+0000000000">Tel (000) 000-0000</a><br />
       <a href="mailto:danielcli(dot)job(at)gmail(dot)com"
         >danielcli.job@gmail.com</a
       >
@@ -90,13 +98,13 @@
       <p>Find me on</p>
       <div class="social-media">
         <a class="socials__icon" href="https://www.github.com">
-          <img src="img/github_icon.svg" alt="Github Icon" >
+          <img src="img/github_icon.svg" alt="Github Icon" />
         </a>
         <a class="socials__icon" href="https://www.twitter.com">
-          <img src="img/twitter_icon.svg" alt="Twitter Icon" >
+          <img src="img/twitter_icon.svg" alt="Twitter Icon" />
         </a>
         <a class="socials__icon" href="https://www.linkedin.com">
-          <img src="img/linkedin_icon.svg" alt="Linkedin Icon" >
+          <img src="img/linkedin_icon.svg" alt="Linkedin Icon" />
         </a>
       </div>
     </footer>
